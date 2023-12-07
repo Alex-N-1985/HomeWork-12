@@ -1,0 +1,38 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 3rem;
+}
+
+.canvas {
+    margin: 1rem;
+    width: 97vw;
+    height: 80vh;
+}
+
+.deck {
+    position: absolute;
+    bottom: 7rem;
+    left: 25rem;
+    width: 25rem;
+    border-top: 5rem solid cadetblue;
+    border-left: 10rem solid transparent;
+    border-right: 5rem solid transparent
+}
+
+.deck::before {
+    content: "";
+    position: absolute;
+    bottom: 5rem;
+    left: 10rem;
+    height: 20rem;
+    border-left: 1rem solid blue;
+    
+}

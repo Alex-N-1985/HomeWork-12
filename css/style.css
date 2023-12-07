@@ -30,9 +30,37 @@ h1 {
 .deck::before {
     content: "";
     position: absolute;
-    bottom: 5rem;
-    left: 10rem;
-    height: 20rem;
-    border-left: 1rem solid blue;
+    bottom: 6rem;
+    left: -5rem;
+    border-right: 15rem solid burlywood;
+    border-top: 17rem solid transparent;
+    border-bottom: 3rem solid transparent;
     
+}
+
+.deck::after {
+    content: "";
+    position: absolute;
+    bottom: 26rem;
+    left: 5rem;
+    border-right: 5rem solid blueviolet;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+}
+
+.mast {
+    position: absolute;
+    bottom: 24.5vh;
+    left: 47vw;
+    height: 25rem;
+    border-left: 0.5rem solid blue;
+}
+
+.mast::after {
+    content: "";
+    position: absolute;
+    bottom: 1rem;
+    border-left: 10rem solid burlywood;
+    border-top: 17rem solid transparent;
+    border-bottom: 3rem solid transparent;
 }

@@ -15,52 +15,54 @@ h1 {
     margin: 1rem;
     width: 97vw;
     height: 80vh;
+    background: linear-gradient(lightblue, 90%, blue );
 }
 
 .deck {
-    position: relative;
-    bottom: -33rem;
-    left: 25rem;
-    width: 25rem;
-    border-top: 5rem solid cadetblue;
-    border-left: 10rem solid transparent;
-    border-right: 5rem solid transparent
+    position: absolute;
+    bottom: 100px;
+    left: 400px;
+    width: 300px;
+    border-top: 60px solid cadetblue;
+    border-left: 150px solid transparent;
+    border-right: 75px solid transparent;
+}
+
+.mast {
+    position: absolute;
+    width: 10px;
+    height: 350px;
+    background-color: blue;
+    left: 680px;
+    bottom: 160px;
 }
 
 .deck::before {
     content: "";
-    position: relative;
-    bottom: 10rem;
-    left: -5rem;
-    border-right: 15rem solid burlywood;
-    border-top: 17rem solid transparent;
-    border-bottom: 3rem solid transparent;
-    
+    position: absolute;
+    bottom: 350px;
+    left: 30px;
+    border-right: 100px solid blueviolet;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
 }
 
 .deck::after {
     content: "";
-    position: relative;
-    bottom: 28rem;
-    left: -10.4rem;
-    border-right: 5rem solid blueviolet;
-    border-top: 1.5rem solid transparent;
-    border-bottom: 1.5rem solid transparent;
-}
-
-.mast {
-    position: relative;
-    bottom: -4vh;
-    left: 47vw;
-    height: 25rem;
-    border-left: 0.5rem solid blue;
+    position: absolute;
+    bottom: 80px;
+    left: -70px;
+    border-top: 200px solid transparent;
+    border-right: 200px solid burlywood;    
+    border-bottom: 50px solid transparent;
 }
 
 .mast::after {
     content: "";
-    position: relative;
-    bottom: -20rem;
-    border-left: 10rem solid burlywood;
-    border-top: 17rem solid transparent;
-    border-bottom: 3rem solid transparent;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    border-left: 150px solid burlywood;
+    border-top: 200px solid transparent;
+    border-bottom: 50px solid transparent;
 }

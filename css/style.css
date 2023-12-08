@@ -66,3 +66,14 @@ h1 {
     border-top: 200px solid transparent;
     border-bottom: 50px solid transparent;
 }
+
+.sun {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px rgba(255, 252, 47, 0.84);
+}
